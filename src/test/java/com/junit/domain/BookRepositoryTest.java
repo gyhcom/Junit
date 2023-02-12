@@ -11,7 +11,7 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 @DataJpaTest
 class BookRepositoryTest {
 
-    @Autowired //DI
+    @Autowired //DI1
     private BookRepository bookRepository;
     //1. 책 등록
     @Test
